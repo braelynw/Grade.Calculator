@@ -11,18 +11,38 @@
 
 </head>
 
-<body onload="createTable()">
+<div id="title">Final Grade Calculator</div>
+<h3>By:Braelyn Wekwerth</h3>
+<body class = "stuff" onload="createTable()">
 
 <div id="container">
 
-    <div id="tablePart"></div>
+    <div id="tablePart" align="center"></div>
 
+    <div>Type in category label:</div>
     <input type = "text" id = "textBox">
-    <button onclick="addRow()">Add Row</button>
+    <button onclick="addRow()" id = "addRow">Add Row</button>
 
-    <button onclick="calculateGrade()">Caculate Grade</button>
 
+    <button onclick="calculateGrade()">Calculate Grade</button>
+    <div id = "finalGrade"></div>
+    <div id="final"></div>
+
+    <table id="table2" align="center">
+        <tr>
+            <td>Final Grade Weight</td>
+            <td>Grade Wanted</td>
+        </tr>
+        <tr>
+            <td><input type="text" id="finalGradeWeight"></td>
+            <td><input type="text" id="finalGradeWanted"></td>
+
+        </tr>
+    </table>
 </div>
+
+    <div id="gradeNeeded"></div>
+    <button onclick="onFinal()">Determine What I Need on the Final</button>
 </body>
 
 </html>

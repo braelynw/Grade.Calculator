@@ -1,15 +1,40 @@
 .green{
-    background: green;
+    background: #ffde7f;
 }
 
 .red{
-    background: red;
+    background: lightgrey;
 }
 
 .grey{
-    background: gray;
+    background: mediumpurple;
 }
 
 body{
-    background: white;
+    background: powderblue;
+    font-family: "Times New Roman";
+}
+
+content{
+    text-align: center;
+    position: absolute;
+}
+
+#title{
+    font-size: xx-large;
+    font-family: "Arial Black";
+    color: black;
+    text-align: center;
+}
+h3{
+    font-family:"Times New Roman";
+    text-align: center;
+}
+
+.stuff{
+    text-align: center;
+}
+
+#container{
+    text-align: center;
 }
